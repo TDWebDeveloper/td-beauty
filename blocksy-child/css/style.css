@@ -1,0 +1,58 @@
+.boton-negativo a {
+  color: #6C4494;
+  background-color: #e8e1ed;
+  border: 1px solid #6C4494;
+}
+
+.boton-negativo a:hover {
+  color: #e8e1ed;
+  background-color: transparent;
+  border: 1px solid #e8e1ed;
+}
+
+.boton-slide .wp-block-button a {
+  border-radius: 2px !important;
+}
+
+.uagb-post__inner-wrap .wp-block-button .wp-block-button__link:hover {
+  border: 1px #6C4494;
+  border-style: solid !important;
+}
+
+.img-marco {
+  border: 1px solid #6C4494;
+}
+.img-marco img {
+  margin-left: 2.5%;
+  margin-top: -3%;
+  margin-bottom: 3%;
+}
+
+.bloque-banner {
+  margin-bottom: 5% !important;
+}
+
+.bloque-gallery, .bloque-products {
+  background-color: #F0F0F0;
+  padding-top: 4%;
+  padding-bottom: 3%;
+}
+
+.bloque-categoria-banner h1, .bloque-categoria-banner p {
+  color: #fff !important;
+}
+
+.bloque-about-banner {
+  margin-bottom: 0 !important;
+}
+.bloque-about-banner h1, .bloque-about-banner p {
+  color: #fff !important;
+}
+
+.bloque-philosophy {
+  background-color: #F0F0F0;
+  padding-top: 4%;
+  padding-bottom: 3%;
+}
+
+/*# sourceMappingURL=style.css.map */
