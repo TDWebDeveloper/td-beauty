@@ -135,7 +135,7 @@
   margin-top:3%;
   margin-bottom:4%;
 }
-.list-footer .uagb-icon-list__wrap .wp-block-uagb-icon-list-child{
+.list-footer .uagb-icon-list__wrap .wp-block-uagb-icon-list-child, .horarios-footer{
   color: white;
   font-size:1em;
 }
