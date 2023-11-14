@@ -158,7 +158,7 @@
   display:none;
 }
 .descripcion-td-packages{
-  width: 50%;
+  width: 50% !important;
   margin-left: auto;
   margin-right: auto;
 }
