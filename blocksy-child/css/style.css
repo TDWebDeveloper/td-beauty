@@ -145,7 +145,7 @@
   height: auto;
 }
 .ct-social-box{
-  flex-direction: row-reverse !important;
+  justify-content:center;
 }
 .ct-icon, .ct-icon-container svg{
   width:2.5rem !important;
