@@ -130,6 +130,7 @@
 }
 .logo-footer{
   width:70%;
+  justify-content:center;
 }
 .type-post .wp-block-columns{
   margin-top:3%;
