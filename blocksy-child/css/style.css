@@ -144,5 +144,12 @@
   width: 1.5em;
   height: auto;
 }
-
+.ct-social-box{
+  flex-direction: row-reverse !important;
+}
+.ct-icon, .ct-icon-container svg{
+  width:1.4rem !important;
+  height:auto !important;
+  fill:white !important;
+}
 /*# sourceMappingURL=style.css.map */
