@@ -148,8 +148,11 @@
   flex-direction: row-reverse !important;
 }
 .ct-icon, .ct-icon-container svg{
-  width:1.4rem !important;
+  width:2.5rem !important;
   height:auto !important;
   fill:white !important;
+}
+.ct-socials-widget .widget-title{
+  display:none;
 }
 /*# sourceMappingURL=style.css.map */
