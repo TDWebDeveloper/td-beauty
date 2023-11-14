@@ -141,7 +141,8 @@
 }
 .list-footer .uagb-icon-list__wrap .wp-block-uagb-icon-list-child .uagb-icon-list__source-wrap svg{
   fill: white;
-  font-size:1.4em;
+  width: 1.5em;
+  height: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
