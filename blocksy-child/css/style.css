@@ -97,5 +97,42 @@
   padding-top: 4%;
   padding-bottom: 3%;
 }
+.menu .menu-item a{
+  font-size:1em;
+}
+.boton-header, .boton-banner a, .boton-radius a{
+  border-radius:25px;
+}
+.boton-banner a{
+  font-size:1.3em;
+  padding-top:5%;
+  padding-bottom:5%;
+}
+.titulo-banner{
+  color:white;
+  text-align:center;
+  font-size:2em;
+}
+.boton-treatments a{
+  font-size:1.3em;
+}
+.bloque-treatments{
+  margin-bottom:0;
+}
+.sub-title{
+  color:var(--paletteColor1);
+  font-weight:300;
+  font-size:1.2em;
+}
+.ct-container-full{
+  padding-bottom:0%;
+}
+.logo-footer{
+  width:70%;
+}
+.type-post .wp-block-columns{
+  margin-top:3%;
+  margin-bottom:4%;
+}
 
 /*# sourceMappingURL=style.css.map */
