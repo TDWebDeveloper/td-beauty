@@ -163,8 +163,11 @@
   margin-right: auto;
 }
 .valor-servicio{
-    font-size: 0.9em;
-    color: #6c4494;
-    font-weight: 600;
+  font-size: 0.9em;
+  color: #6c4494;
+  font-weight: 600;
+}
+.form-dudas{
+  margin-top:5%;
 }
 /*# sourceMappingURL=style.css.map */
