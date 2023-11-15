@@ -11,7 +11,7 @@
 }
 
 .boton-slide .wp-block-button a {
-  border-radius: 2px !important;
+  border-radius: 25px !important;
 }
 
 .uagb-post__inner-wrap .wp-block-button .wp-block-button__link:hover {
@@ -23,7 +23,7 @@
   color: #fff;
   background-color: #6C4494;
   border: 1px solid #6C4494;
-  border-radius: 2px;
+  border-radius: 25px;
   transition: background-color 0.6s, color 0.6s, border 0.6s;
   margin-right: 2%;
 }
@@ -39,7 +39,7 @@
   color: #6C4494;
   background-color: #e8e1ed;
   border: 1px solid #e8e1ed;
-  border-radius: 2px;
+  border-radius: 25px;
   transition: background-color 0.6s, border 0.6s;
 }
 
