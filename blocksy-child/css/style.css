@@ -126,7 +126,7 @@
   color:white;
   text-align:center;
   font-size:2em;
-  margin-bottom:2%;
+  margin-bottom:2% !important;
 }
 .boton-treatments a{
   font-size:1.3em;
