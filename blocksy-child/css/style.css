@@ -163,7 +163,7 @@
 .ct-social-box{
   justify-content:center;
 }
-.ct-icon, .ct-icon-container svg{
+.ct-social-box .ct-icon-container svg{
   width:2.5rem !important;
   height:auto !important;
   fill:white !important;
