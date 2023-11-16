@@ -209,6 +209,9 @@
   margin-top:3%;
 }
 .titulo-treatments{
-  margin-top:2%;
+  margin-top:5% !important;
+}
+.img-treatments{
+  margin-bottom:0 !important;
 }
 /*# sourceMappingURL=style.css.map */
