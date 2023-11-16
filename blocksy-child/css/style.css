@@ -217,6 +217,7 @@
 .img-treatments img{
   border-top-left-radius:5px;
   border-top-right-radius:5px;
+  aspect-ratio:16/9;
 }
 .parrafo-treatments{
   padding-left:4%;
