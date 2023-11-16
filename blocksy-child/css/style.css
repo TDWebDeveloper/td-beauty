@@ -219,6 +219,9 @@
   padding-right:2%;
 }
 .button-treatments{
-  margin-bottom:2%;
+  margin-bottom:5% !important;
+}
+.bloque-interno-treatments{
+  border-radius:3px;
 }
 /*# sourceMappingURL=style.css.map */
