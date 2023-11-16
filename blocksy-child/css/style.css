@@ -213,6 +213,8 @@
 }
 .img-treatments{
   margin-bottom:0 !important;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
 }
 .parrafo-treatments{
   padding-left:2%;
@@ -222,6 +224,7 @@
   margin-bottom:5% !important;
 }
 .bloque-interno-treatments{
-  border-radius:3px;
+  border-radius: 5px;
+  margin-bottom: 4% !important;
 }
 /*# sourceMappingURL=style.css.map */
