@@ -239,8 +239,8 @@
   margin-bottom: 4% !important;
 }
 .bloque-reserva{
-  border-radius:3px;
-  box-shadow:3px 3px 5px;
+  border-radius:5px;
+  box-shadow:5px 5px 15px #ddd;
 }
 .bloque-contenido-servicio p{
   text-align:justify;
