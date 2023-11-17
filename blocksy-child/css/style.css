@@ -241,6 +241,8 @@
 .bloque-reserva{
   border-radius:5px;
   box-shadow:5px 5px 15px #ddd;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 .bloque-contenido-servicio p{
   text-align:justify;
