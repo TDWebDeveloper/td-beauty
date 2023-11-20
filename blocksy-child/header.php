@@ -48,16 +48,16 @@
 
 		do_action('blocksy:header:after');
 		do_action('blocksy:content:before');
-		if ( is_active_sidebar( 'custom-header-widget' ) ) : ?>
-    <div id="header-widget-area" class="chw-widget-area widget-area" role="complementary">
-    <?php dynamic_sidebar( 'custom-header-widget' ); ?>
-    </div>
- 
-<?php endif; ?>
+	?>
 
 	<main <?php echo blocksy_main_attr() ?>>
 
 		<?php
 			do_action('blocksy:content:top');
 			blocksy_before_current_template();
-		?>
+			if ( is_active_sidebar( 'custom-header-widget' ) ) : ?>
+    <div id="header-widget-area" class="chw-widget-area widget-area" role="complementary">
+    <?php dynamic_sidebar( 'custom-header-widget' ); ?>
+    </div>
+ 
+<?php endif; ?>
