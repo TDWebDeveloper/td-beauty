@@ -262,5 +262,11 @@
   color: #6c4494;
   transition: background-color 0.6s, border 0.6s, color 0.6s;
 }
-
+.boton-negativo-header{
+  color: #fff;
+  background-color: #6C4494;
+  border: 1px solid #6C4494;
+  border-radius: 25px;
+  transition: background-color 0.6s, color 0.6s, border 0.6s;
+}
 /*# sourceMappingURL=style.css.map */
