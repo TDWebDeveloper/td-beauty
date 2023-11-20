@@ -55,7 +55,9 @@
 		<?php
 			do_action('blocksy:content:top');
 			blocksy_before_current_template();
-			if ( is_active_sidebar( 'custom-header-widget' ) ) : ?>
+		?>
+<?php
+if ( is_active_sidebar( 'custom-header-widget' ) ) : ?>
     <div id="header-widget-area" class="chw-widget-area widget-area" role="complementary">
     <?php dynamic_sidebar( 'custom-header-widget' ); ?>
     </div>
