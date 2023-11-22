@@ -278,7 +278,7 @@
 .boton-welcome{
   margin-top:7%;
 }
-.boton-cooming-soon{
+.boton-cooming-soon .wp-block-button__link{
   cursor:not-allowed;
 }
 /*# sourceMappingURL=style.css.map */
