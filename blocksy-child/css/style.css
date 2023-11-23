@@ -291,5 +291,10 @@
 .form-newsletter .wpforms-form .wpforms-field-container input[type=text],
 .form-newsletter .wpforms-form .wpforms-field-container input[type=email]{
   max-width:100%;
+  border-radius:25px;
+  background-color:#FAFBFC;
+}
+.form-newsletter .wpforms-form .wpforms-submit-container{
+  align-items: center;
 }
 /*# sourceMappingURL=style.css.map */
