@@ -294,7 +294,12 @@
   border-radius:25px;
   background-color:#FAFBFC;
 }
+.form-newsletter .wpforms-form .wpforms-field-container input[type=text]:focus,
+.form-newsletter .wpforms-form .wpforms-field-container input[type=email]:focus{
+  border: 1px solid #AC87BD;
+  box-shadow: 0 0 0 1px #AC87BD,0px 1px 2px rgba(0,0,0,0.15);
+}
 .form-newsletter .wpforms-form .wpforms-submit-container{
-  align-items: center;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
