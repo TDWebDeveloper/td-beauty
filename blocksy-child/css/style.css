@@ -320,12 +320,12 @@
 .contact-form .wpforms-form .wpforms-field-container input[type=email]{
   border-radius:25px;
   background-color:white;
-  border:none;
+  border:1px solid #ccc;
 }
 .contact-form .wpforms-form .wpforms-field-container textarea{
   border-radius:5px;
   background-color:white;
-  border:none;
+  border:1px solid #ccc;
 }
 .contact-form .wpforms-form .wpforms-field-container input[type=text]:focus,
 .contact-form .wpforms-form .wpforms-field-container input[type=email]:focus,
