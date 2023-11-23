@@ -299,7 +299,7 @@
   border: 1px solid #AC87BD;
   box-shadow: 0 0 0 1px #AC87BD,0px 1px 2px rgba(0,0,0,0.15);
 }
-.form-newsletter .wpforms-form .wpforms-submit-container{
+.form-newsletter .wpforms-form .wpforms-submit-container, .contact-form .wpforms-form .wpforms-submit-container{
   text-align: center;
 }
 .form-newsletter .wpforms-form .wpforms-submit-container .wpforms-submit{
@@ -311,6 +311,37 @@
 .form-newsletter .wpforms-form .wpforms-submit-container .wpforms-submit:hover{
   background-color:#6C4494;
   color:white;
+  border:1px solid white;
+}
+.contact-form .wpforms-form .wpforms-field-container .wpforms-field-label{
+  color:#6C4494;
+}
+.contact-form .wpforms-form .wpforms-field-container input[type=text],
+.contact-form .wpforms-form .wpforms-field-container input[type=email]{
+  border-radius:25px;
+  background-color:white;
+  border:none;
+}
+.contact-form .wpforms-form .wpforms-field-container textarea{
+  border-radius:5px;
+  background-color:white;
+  border:none;
+}
+.contact-form .wpforms-form .wpforms-field-container input[type=text]:focus,
+.contact-form .wpforms-form .wpforms-field-container input[type=email]:focus,
+.contact-form .wpforms-form .wpforms-field-container textarea:focus{
+  border: 1px solid #AC87BD;
+  box-shadow: 0 0 0 1px #AC87BD,0px 1px 2px rgba(0,0,0,0.15);
+}
+.contact-form .wpforms-form .wpforms-submit-container .wpforms-submit{
+  background-color:#6C4494;
+  color:white;
+  border:1px solid #6C4494;
+  border-radius:25px;
+}
+.contact-form .wpforms-form .wpforms-submit-container .wpforms-submit:hover{
+  background-color:white;
+  color:#6C4494;
   border:1px solid white;
 }
 /*# sourceMappingURL=style.css.map */
