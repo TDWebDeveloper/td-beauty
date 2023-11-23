@@ -306,6 +306,7 @@
   background-color:white;
   color:#6C4494;
   border:1px solid #6C4494;
+  border-radius:25px;
 }
 .form-newsletter .wpforms-form .wpforms-submit-container .wpforms-submit:hover{
   background-color:#6C4494;
