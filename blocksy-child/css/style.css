@@ -302,4 +302,14 @@
 .form-newsletter .wpforms-form .wpforms-submit-container{
   text-align: center;
 }
+.form-newsletter .wpforms-form .wpforms-submit-container .wpforms-submit{
+  background-color:white;
+  color:#6C4494;
+  border:1px solid #6C4494;
+}
+.form-newsletter .wpforms-form .wpforms-submit-container .wpforms-submit:hover{
+  background-color:#6C4494;
+  color:white;
+  border:1px solid white;
+}
 /*# sourceMappingURL=style.css.map */
