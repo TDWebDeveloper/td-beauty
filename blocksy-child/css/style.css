@@ -94,7 +94,9 @@
 .bloque-banner {
   margin-bottom: 5% !important;
 }
-
+.bloque-banner .wp-block-nk-awb img{
+  filter:brightness(0.5);
+}
 .bloque-gallery, .bloque-products {
   background-color: #F0F0F0;
   padding-top: 4%;
