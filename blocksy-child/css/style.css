@@ -108,7 +108,9 @@
 }
 
 .hr-servicios {
-  border-top: 1px solid #6C4494 !important;
+  border-top: 1px solid rgb(108 68 148 / 30%) !important;
+  background-color: transparent;
+  width: 70% !important;
 }
 
 .bloque-about-banner {
