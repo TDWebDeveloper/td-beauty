@@ -85,8 +85,10 @@
 }
 
 .hot-tip {
-  font-style: italic;
   color: #6C4494;
+}
+.descripcion-servicio{
+  text-align:justify;
 }
 
 .bloque-banner {
