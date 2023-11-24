@@ -207,6 +207,9 @@
   margin-left: auto;
   margin-right: auto;
 }
+.img-td-packages{
+  width:50%;
+}
 .valor-servicio{
   font-size: 0.9em;
   color: #6c4494;
