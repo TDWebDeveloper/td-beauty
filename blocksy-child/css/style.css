@@ -134,15 +134,15 @@
   border-radius:25px;
 }
 .boton-negativo-banner .latepoint-book-button{
-  color: #fff;
-  background-color: #6C4494;
-  border: 1px solid #6C4494;
+  color: #6c4494;
+  background-color:#e8e1ed;
+  border: 1px solid #e8e1ed;
   border-radius: 25px;
   transition: background-color 0.6s, color 0.6s, border 0.6s;
   font-size:1.4em;
 }
 .boton-negativo-banner .latepoint-book-button:hover{
-  background-color: transparent;
+  background-color: white;
   border: 1px solid white;
   transition: background-color 0.6s, border 0.6s;
 }
