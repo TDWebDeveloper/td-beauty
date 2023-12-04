@@ -83,7 +83,12 @@
   margin-top: -3%;
   margin-bottom: 3%;
 }
-
+.bloque-video{
+	aspect-ratio:21/9;
+}
+.bloque-video .wp-block-nk-awb .nk-awb-wrap{
+	aspect-ratio:21/9;
+}
 .hot-tip {
   color: #6C4494;
 }
@@ -135,7 +140,7 @@
 .boton-header, .boton-banner a, .boton-radius a{
   border-radius:25px;
 }
-.boton-negativo-banner .latepoint-book-button{
+.boton-negativo-banner .latepoint-book-button, .boton-negativo-offcanvas .latepoint-book-button{
   color: #6c4494;
   background-color:#e8e1ed;
   border: 1px solid #e8e1ed;
@@ -143,10 +148,13 @@
   transition: background-color 0.6s, color 0.6s, border 0.6s;
   font-size:1.4em;
 }
-.boton-negativo-banner .latepoint-book-button:hover{
+.boton-negativo-banner .latepoint-book-button:hover, .boton-negativo-offcanvas .latepoint-book-button:hover{
   background-color: white;
   border: 1px solid white;
   transition: background-color 0.6s, border 0.6s;
+}
+.boton-negativo-offcanvas{
+	justify-content:center;
 }
 .titulo-banner{
   color:white;
@@ -246,6 +254,10 @@
 .bloque-interno-treatments{
   border-radius: 5px;
   margin-bottom: 4% !important;
+}
+.carousel-advice .slick-arrow{
+	background-color:rgb(191 191 191 / 50%) !important;
+	border-radius:25px;
 }
 .bloque-reserva{
   border-radius:5px;
@@ -358,4 +370,118 @@
 .bloque-video .wp-block-nk-awb .nk-awb-wrap{
   margin-bottom:0%;
 }
+.menu-total-body .wp-block-cover, .menu-total-face .wp-block-cover, .menu-wellness-treatments .wp-block-cover, .menu-td-packages .wp-block-cover{
+  transition:filter 0.4s;
+}
+.menu-total-body .wp-block-cover:hover, .menu-total-face .wp-block-cover:hover, .menu-wellness-treatments .wp-block-cover:hover, .menu-td-packages .wp-block-cover:hover{
+  filter:brightness(1.6);
+  transition:filter 0.4s;
+}
+.img-doc{
+  width:80%;
+}
+.p-treatment{
+  margin-bottom:0%;
+}
+.precio-treatment{
+  font-size:1em;
+  font-weight:700;
+}
+#offcanvas{
+	z-index:99998;
+}
+/*	LOGIN AND REGISTER	*/
+
+.customer-dashboard-tabs a.active{
+	color:var(--theme-palette-color-1);
+}
+.customer-dashboard-tabs a:after{
+	background-color:var(--theme-palette-color-1);
+}
+.latepoint-message.latepoint-message-info{
+	background:var(--theme-palette-color-5);
+}
+.latepoint-w .os-form-group.os-form-select-group input[type=email], .latepoint-w .os-form-group.os-form-select-group input[type=number], .latepoint-w .os-form-group.os-form-select-group input[type=password], .latepoint-w .os-form-group.os-form-select-group input[type=tel], .latepoint-w .os-form-group.os-form-select-group input[type=text], .latepoint-w .os-form-group.os-form-select-group textarea, .latepoint-w .os-form-group.os-form-textfield-group input[type=email], .latepoint-w .os-form-group.os-form-textfield-group input[type=number], .latepoint-w .os-form-group.os-form-textfield-group input[type=password], .latepoint-w .os-form-group.os-form-textfield-group input[type=tel], .latepoint-w .os-form-group.os-form-textfield-group input[type=text], .latepoint-w .os-form-group.os-form-textfield-group textarea{
+	border-radius:5px !important;
+}
+.latepoint-btn{
+	background-color:var(--theme-palette-color-1);
+	border-radius:25px !important;
+	border:1px solid transparent;
+}
+.latepoint-btn:hover{
+	background-color:var(--theme-palette-color-5);
+	color:var(--theme-palette-color-1) !important;
+	border:1px solid var(--theme-palette-color-1);
+}
+.user-registration{
+	margin-bottom:3% !important;
+}
+.ur-frontend-form{
+	border:none;
+	background-color:white;
+}
+.ur-frontend-form .ur-form-row .ur-form-grid .__PrivateStripeElement, .ur-frontend-form .ur-form-row .ur-form-grid input[type=date], .ur-frontend-form .ur-form-row .ur-form-grid input[type=email], .ur-frontend-form .ur-form-row .ur-form-grid input[type=number], .ur-frontend-form .ur-form-row .ur-form-grid input[type=password], .ur-frontend-form .ur-form-row .ur-form-grid input[type=phone], .ur-frontend-form .ur-form-row .ur-form-grid input[type=text], .ur-frontend-form .ur-form-row .ur-form-grid input[type=timepicker], .ur-frontend-form .ur-form-row .ur-form-grid input[type=url], .ur-frontend-form .ur-form-row .ur-form-grid select, .ur-frontend-form .ur-form-row .ur-form-grid textarea{
+	border-radius:25px;
+	background-color:var(--theme-palette-color-6);
+}
+.ur-submit-button{
+	border:1px solid transparent !important;
+}
+.ur-submit-button:hover{
+	border:1px solid var(--theme-palette-color-1) !important;
+}
+/*	RESPONSIVE	*/
+@media only screen and (max-width: 768px){
+	.logo-footer{
+		width:50%;
+	}
+	.horarios-footer{
+		text-align:center;
+	}
+	.img-td-packages{
+		width:100%;
+	}
+	h1{
+		text-align:center;
+	}
+	.bloque-philosophy .wp-block-buttons, .bloque-productos .wp-block-buttons, .bloque-advice .wp-block-buttons{
+		justify-content:center;
+	}
+	.bloque-productos .wp-block-buttons{
+		margin-bottom:5% !important;
+	}
+	.social-footer .wp-block-heading{
+		display:none;
+	}
+	.ct-footer .ct-container div[data-column="widget-area-3"] .ct-widget{
+		margin-top:0%;
+	}
+	.boton-advice-down{
+		margin-top:5% !important;
+		margin-bottom:5% !important;
+	}
+}
+@media only screen and (max-width: 430px){
+	.bloque-video-responsive{
+		aspect-ratio:5/7;
+	}
+	.bloque-video-responsive .wp-block-nk-awb .nk-awb-wrap{
+		aspect-ratio:5/7;
+	}
+	.latepoint-tab-triggers a{
+		font-size:1em;
+	}
+}
+@media only screen and (max-width: 375px){
+	.latepoint-tab-triggers a{
+		font-size:0.8em;
+	}
+}
+@media only screen and (max-width: 350px){
+	.latepoint-tab-triggers a{
+		font-size:0.7em;
+	}
+}
+
 /*# sourceMappingURL=style.css.map */
